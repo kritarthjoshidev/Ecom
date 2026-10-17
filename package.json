@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack E-Commerce Web Application",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build",
+    "install:all": "cmd /c \"cd server && npm install\" && cmd /c \"cd client && npm install\""
+  }
+}
